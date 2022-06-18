@@ -8,7 +8,7 @@ const LiveChannelItem = ({img, profile_img, title, user, game}) => {
         <Image src={img} />
         <div className='flex pt-2'>
             <div>
-                <Image className='rounded-full' src={profile_img} alt={user} width='60' height='60'/>
+                <Image className='rounded-full' src={profile_img} alt='/' width='60' height='60'/>
             </div>
             <div>
                 <p className='text-sm font-bold'>{title}</p>
