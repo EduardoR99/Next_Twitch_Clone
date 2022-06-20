@@ -4,7 +4,7 @@ import Remote from '../../public/assets/remote.png';
 import Mic from '../../public/assets/mic.png';
 import HeadPhones from '../../public/assets/headphones.png';
 import Trophy from '../../public/assets/trophy.png';
-import Paint from '../../public/assets/Paint.png'
+import Paint from '../../public/assets/paint.png'
 
 const IconBar = () => {
   return (
