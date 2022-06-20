@@ -135,7 +135,7 @@ const Navbar = () => {
               </div>
             </Link>
             <Menu as="div" className="relative text-left">
-            <div className="flex">
+            <div className="flex ml-2">
               <Menu.Button>
                 <Image src={session.user.image} alt='/' className="rounded-full" width='45' height='45'/>
               </Menu.Button>
