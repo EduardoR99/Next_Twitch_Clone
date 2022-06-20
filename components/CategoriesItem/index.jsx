@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CategoriesItem = ({ img, title, viewers, tag1, tag2 }) => {
   return (
-    <div className="p-2">
+    <div className="p-2 cursor-pointer transition ease-out hover:scale-105">
       <Image src={img} width="261" height="350" alt="/" />
       <div>
         <p className="font-bold">{title}</p>

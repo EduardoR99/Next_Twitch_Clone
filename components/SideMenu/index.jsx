@@ -12,7 +12,7 @@ const SideMenu = () => {
             <p><RiMovieLine className='xl:hidden justify-center w-full'/></p>
         </div>
         {rec_chanels.map((item, index)=> (
-            <div className='inline-flex items-center w-full py-[2px]' key={index}>
+            <div className='inline-flex items-center w-full py-[2px] transition ease-out hover:scale-105 cursor-pointer' key={index}>
                 <div>
                     <Image src={item.avatar} alt={item.username} width='40' height='40'/>
                 </div>
@@ -30,7 +30,7 @@ const SideMenu = () => {
             <p><RiMovieLine className='xl:hidden justify-center w-full'/></p>
         </div>
         {top_chanels.map((item, index)=> (
-            <div className='inline-flex items-center w-full py-[2px]' key={index}>
+            <div className='inline-flex items-center w-full py-[2px] transition ease-out hover:scale-105 cursor-pointer' key={index}>
                  <div>
                     <Image src={item.avatar} alt={item.username} width='40' height='40'/>
                 </div>

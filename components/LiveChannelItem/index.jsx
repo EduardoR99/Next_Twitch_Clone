@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const LiveChannelItem = ({img, profile_img, title, user, game}) => {
   return (
-    <div className='p-2'>
+    <div className='p-2 cursor-pointer transition ease-out hover:scale-105'>
         <Image src={img} alt='/'/>
         <div className='flex pt-2'>
             <div>
